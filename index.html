@@ -737,7 +737,7 @@ $(document).on('click', '.settings-button', function() {
 });
 //重开按钮点击事件
 Setting.addHeader("",
-`<button id="restart-btn" style=" font-size: 16px; ">重新开始</button>`
+`<span style=" font-size: 16px; ">是否重新开始？</span><button id="restart-btn" style=" font-size: 16px; ">重新开始</button>`
 );
 $(document).on("click", "#restart-btn", function () {
          UI.restart();
